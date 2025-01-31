@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/navbar';
-import AnimatedBackgroundWithText from './components/hero/hero';
-import PastorsRemarks from './components/hero/pastors';
+import Dropdown from './components/navbar/navbar';
+import Hero from './components/hero/hero';
+// import PastorsRemarks from './components/hero/pastors';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <AnimatedBackgroundWithText />
-      <PastorsRemarks />
+     
+      <Hero />
+
+      <Dropdown />
+      {/* <PastorsRemarks /> */}
       
       
     </div>
