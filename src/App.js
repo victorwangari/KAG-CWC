@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Dropdown from './components/navbar/navbar';
-import Hero from './components/hero/hero';
-// import PastorsRemarks from './components/hero/pastors';
+// import Dropdown from './components/navbar/navbar';
+import Hero from './components/landing/hero';
+import PastorsRemarks from './components/landing/pastors';
+import UpcomingEvents from './components/landing/upcomingevents';
+import Timer from './components/landing/timer/page';
 
 
 function App() {
@@ -10,9 +12,9 @@ function App() {
     <div className="App">
      
       <Hero />
-
-      <Dropdown />
-      {/* <PastorsRemarks /> */}
+      <PastorsRemarks />
+      <UpcomingEvents />
+      <Timer />
       
       
     </div>

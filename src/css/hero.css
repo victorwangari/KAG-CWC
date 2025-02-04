@@ -1,3 +1,73 @@
 .navs{
     text-decoration: none;
 }
+.drop-down{
+    text-decoration: none;
+    font-size: 2vh;
+    color: white !important;
+}
+.drop-down:hover{
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.card{
+    width: 18rem !important;
+}
+.evnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poster-img{
+    display: flex !important;
+    justify-content: center;
+    padding: 1vh !important;
+    
+    
+}
+.poster{
+    margin-left: vh;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+.card-event{
+    font-size: 4vh;
+    align-items: center;
+    justify-content: center !important;
+    margin: auto !important;
+    margin-left: 4vh !important;
+    margin-top: 6vh !important;
+    font-weight: 700 !important;
+}
+.card-btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 8vh;
+  
+
+}
+.timer-verse {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url('../img/groupmeetings.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.maintaining-h2{
+    display: flex;
+    justify-content: center;
+} 
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.854); /* White with 50% transparency */
+}   
+.maitaining-title{
+    font-weight: 700;
+    font-size: 5vh;
+    margin-top: 10vh;
+    text-align: center;
+    
+}

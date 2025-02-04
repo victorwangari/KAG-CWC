@@ -1,5 +1,5 @@
 import React from "react";
-import jimjim from "../../img/pastorjames1.jpg"
+import jimbecky from "../../img/becky&james.jpg"
 
 export default function PastorsRemarks() {
     return (
@@ -7,7 +7,7 @@ export default function PastorsRemarks() {
             {/* Image Section */}
             <div className="w-full md:w-1/2 flex justify-center">
                 <img
-                    src={jimjim}
+                    src={jimbecky}
                     alt="Pastors"
                     className="rounded-lg shadow-lg w-full md:w-3/4"
                 />
