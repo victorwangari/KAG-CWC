@@ -9,15 +9,15 @@ export default function Timer() {
   return (
     <div className="timer-verse">
       <main className="flex min-h-[70vh] flex-col items-center justify-center">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-white text-center">
+        <h1 className="text-3xl sm:text-4xl countdown-title font-bold mb-8 text-white text-center">
           Countdown to <span className="text-yellow-500">Ladies</span> and <span className="text-yellow-500">Gents</span> Night 2025.
         </h1>
         
-        <div className="flex flex-col md:flex-row gap- w-full max-w-6xl">
+        <div className="flex flex-col md:flex-row card-all w-full max-w-6xl">
           {/* First Card */}
           <div className="flex-1 bg-green-400 shadow-md  ">
             <div className="card-body ">
-              <h5 className="card-title text-white card-event">next UPCOMING <span className="text-yellow-700">EVENT</span></h5>
+              <h5 className="card-title  text-white card-event">next UPCOMING <span className="text-yellow-700">EVENT</span></h5>
               
             </div>
           </div>
@@ -40,13 +40,13 @@ export default function Timer() {
             <h2 className="text-black maitaining-title ">Maintaining the <span className="text-yellow-500">Fellowship</span></h2>
         </div>
         <div className="maintaining-h2">
-            <p className="text-white">Let us fix our eyes on Jesus, <br/> the author and perfecter of our faith, who for the joy set before him endured the cross,<br/> scorning its shame, and sat down at the right hand of the throne of God.</p>
+            <p className="text-black maintaning-p">Let us fix our eyes on Jesus, <br/> the author and perfecter of our faith, who for the joy set before him endured the cross,<br/> scorning its shame, and sat down at the right hand of the throne of God.</p>
         </div>
         <div>
-        <p className="text-white maintaining-h2 ">Hibrews 12:2</p>
+        <p className="text-black maintaining-h2 maintaining-verse ">Hibrews 12:2</p>
         </div>
         <div className="maintaining-h2">
-            <a href="#" className="btn btn-warning">Learn More</a>
+            <a href="#" className="btn btn-warning maintainig-button">Learn More</a>
         </div>
       </div>
     </div>

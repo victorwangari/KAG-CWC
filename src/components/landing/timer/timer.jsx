@@ -37,9 +37,9 @@ export default function EventCountdown({ eventDate, eventName }) {
     }
 
     return (
-      <div key={interval} className="bg-green-300 text-green-800 rounded-lg p-4 shadow flex flex-col items-center">
-        <span className="text-4xl font-bold">{timeLeft[interval]}</span>
-        <span className="text-sm uppercase">{interval}</span>
+      <div key={interval} className="bg-green-300 text-green-800 rounded-lg interval-all  p-4 shadow flex flex-col items-center">
+        <span className="text-4xl interval-time font-bold">{timeLeft[interval]}</span>
+        <span className="text-sm interval-text uppercase">{interval}</span>
       </div>
     )
   })
