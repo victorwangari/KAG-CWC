@@ -3,13 +3,15 @@ import "../../css/hero.css"
 import Logo from "../../img/cwc_logo-removebg-preview.png"
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
+
 
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About us', href: '#', current: false },
-  { name: 'Events', href: '#', current: false },
-  { name: 'Hired Products', href: '#', current: false },
+  { name: 'Home', href: '/' },
+  { name: 'About us', href: '/about' },
+  { name: 'Events', href: '#',  },
+  { name: 'Hired Products', href: '#', },
   {
     name: 'Ministries',
     dropdown: true, // Indicate it's a dropdown
@@ -71,17 +73,17 @@ function NavBar(){
                         </MenuItems>
                       </Menu>
                     ) : (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
-                        aria-current={item.current ? 'page' : undefined}
+                        to={item.href}
+                        // aria-current={item.current ? 'page' : undefined}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium navs mt-3 decoration-0',
                         )}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     )
                   )}
                 </div>
@@ -92,7 +94,7 @@ function NavBar(){
               {/* GIVE */}
               <Menu as="div" className="relative ml-3">
                 <div>
-                 <button  type="button" class="btn btn-success">GIVE</button>
+                 <button  type="button" class="btn direction  btn-warning">GIVE</button>
                 </div>
                 
               </Menu>
@@ -117,13 +119,13 @@ function NavBar(){
               </DisclosureButton>
               <DisclosurePanel className="pl-5 space-y-1">
                 {item.items.map((dropdownItem) => (
-                  <a
+                  <Link
                     key={dropdownItem.name}
-                    href={dropdownItem.href}
-                    className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                    to={dropdownItem.href}
+                    className="block px-4 py-2 navs text-sm text-gray-300 hover:bg-gray-700"
                   >
                     {dropdownItem.name}
-                  </a>
+                  </Link>
                 ))}
               </DisclosurePanel>
             </>
@@ -137,7 +139,7 @@ function NavBar(){
           aria-current={item.current ? 'page' : undefined}
           className={classNames(
             item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-            'block rounded-md px-3 py-2 text-base font-medium',
+            'block rounded-md px-3 navs py-2 text-base font-medium',
           )}
         >
           {item.name}
