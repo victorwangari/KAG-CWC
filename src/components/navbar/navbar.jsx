@@ -55,16 +55,16 @@ function NavBar(){
                   {navigation.map((item) =>
                     item.dropdown ? (
                       <Menu as="div" key={item.name} className="relative mt-3">
-                        <MenuButton className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                        <MenuButton className="flex items-center text-gray-300 navs hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
                           {item.name}
                           <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" />
                         </MenuButton>
-                        <MenuItems className="absolute  right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-gray-600 py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-hidden">
+                        <MenuItems className="absolute  right-0 z-10 mt-2 w-48 origin-top-right rounded-md  py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-hidden">
                           {item.items.map((dropdownItem) => (
                             <MenuItem key={dropdownItem.name}>
                               <a
                                 href={dropdownItem.href}
-                                className="block px-4 py-2 drop-down  text-sm text-gray-700 hover:bg-gray-100  "
+                                className="block px-4 py-2 drop-down  text-sm text-gray-700 hover:bg-green-700  "
                               >
                                 {dropdownItem.name}
                               </a>
@@ -78,7 +78,7 @@ function NavBar(){
                         to={item.href}
                         // aria-current={item.current ? 'page' : undefined}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-green-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium navs mt-3 decoration-0',
                         )}
                       >
