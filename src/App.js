@@ -6,6 +6,7 @@ import PastorsRemarks from './components/landing/pastors';
 import UpcomingEvents from './components/landing/upcomingevents';
 import Timer from './components/landing/timer/page';
 import Footer from './components/footer/footer';
+import NavBar from './components/navbar/navbar';
 
 
 function App() {

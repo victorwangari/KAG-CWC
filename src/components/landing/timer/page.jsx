@@ -30,7 +30,7 @@ export default function Timer() {
           {/* Last Card */}
           <div className=" flex-1  bg-green-500 shadow-md  text-end">
             <div className="card-body card-btn ">
-              <a href="" className="btn w-40 fs-4 btn-warning mt-4">View Event</a>
+              <a href="" className="btn w-40 fs-4 direction btn-warning mt-4">View Event</a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Timer() {
             <p className="text-black maintaning-p">Let us fix our eyes on Jesus, <br/> the author and perfecter of our faith, who for the joy set before him endured the cross,<br/> scorning its shame, and sat down at the right hand of the throne of God.</p>
         </div>
         <div>
-        <p className="text-black maintaining-h2 maintaining-verse ">Hibrews 12:2</p>
+        <p className="text-black maintaining-h2 maintaining-verse ">Hebrews 12:2</p>
         </div>
         <div className="maintaining-h2">
             <a href="#" className="btn btn-warning maintainig-button">Learn More</a>

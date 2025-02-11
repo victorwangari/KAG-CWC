@@ -99,6 +99,25 @@
     background-color: #4CAF50;
     color: white;
 }
+/* footer */
+.direction a{
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+.direction a:hover{
+    color: white;
+    
+}
+.direction:hover{
+    background-color: green !important;
+    color: white;
+
+}
+
+
 /* media query */
 @media only screen and (max-width: 576px) {
     .countdown-title{
