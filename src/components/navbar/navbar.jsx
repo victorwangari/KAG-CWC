@@ -2,7 +2,7 @@ import React from 'react';
 import "../../css/hero.css"
 import Logo from "../../img/cwc_logo-removebg-preview.png"
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
-import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 
 
@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About us', href: '/about' },
-  { name: 'Events', href: '#',  },
+  { name: 'Events', href: '/events',  },
   { name: 'Hired Products', href: '#', },
   {
     name: 'Ministries',

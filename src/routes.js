@@ -1,5 +1,6 @@
 import App from "./App";
 import About from "./components/about/about";
+import Events from "./components/events/events";
 
 const routes = [
     {
@@ -9,7 +10,12 @@ const routes = [
     {
         path: "/about",
         element: <About/>
+    },
+    {
+        path: "/events",
+        element: <Events/>
     }
+
 
 ]
 

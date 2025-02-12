@@ -24,3 +24,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* EVENTS SECTION */
+.events{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/dinnerdate\ hall.jpg');
+    background-size: cover; /* or "contain" */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-position: center;
+    background-attachment: fixed; /* Ensures background doesn't move on scroll */
+    min-height: 40vh;
+    margin-bottom: 20vh;
+}
+

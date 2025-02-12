@@ -17,8 +17,7 @@ const teamMembers = {
         { name: "Kibathi Mbugua", role: "Chair Person" },
         { name: "Charles Ng’ang’a", role: "Bishop", },
         { name: "Richard Munala", role: "Assistant Bishop", },
-        { name: "James Chege", role: "Elder", },
-        { name: "Jonathan Njoroge", role: "Elder", },
+      
     ], // Add staff members here if needed
 };
 
