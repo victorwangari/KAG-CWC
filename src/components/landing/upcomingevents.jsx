@@ -39,7 +39,7 @@ function UpcomingEvents() {
                         <div className="poster text-center mb-4">
                             <img src={event.image} alt={`Event ${index + 1}`} className="img-fluid rounded shadow" />
                             <p className="text-black-500 mt-2">{event.date}</p>
-                            <a href="#" className="btn btn-warning text-blue-500 direction hover:text-blue-600">
+                            <a href="/events" className="btn btn-warning text-blue-500 direction hover:text-blue-600">
                                 View Event Details
                             </a>
                         </div>

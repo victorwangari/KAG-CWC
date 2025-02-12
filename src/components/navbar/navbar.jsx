@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About us', href: '/about' },
   { name: 'Events', href: '/events',  },
-  { name: 'Hired Products', href: '#', },
+  { name: 'Hired Products', href: '/hired-products', },
   {
     name: 'Ministries',
     dropdown: true, // Indicate it's a dropdown
