@@ -17,10 +17,10 @@ const navigation = [
     dropdown: true, // Indicate it's a dropdown
     items: [
       { name: 'Children Ministry', href: '/children' },
-      { name: 'Men Ministry', href: '#' },
-      { name: 'WWK Ministry', href: '#' },
-      { name: 'Teen Ministry', href: '#' },
-      { name: 'Youth Ministry', href: '#' },
+      { name: 'Teen Ministry', href: '/teen' },
+      { name: 'Men Ministry', href: '/men' },
+      { name: 'WWK Ministry', href: '/women' },
+      { name: 'Youth Ministry', href: '/youths' },
     ],
   },
 ];
