@@ -3,14 +3,14 @@ import "../../../css/hero.css";
 
 export default function Timer() {
   // Set the date to February 14, 2025, at 00:00:00 Kenyan time (UTC+3)
-  const nextEventDate = new Date("2025-02-14T00:00:00+03:00");
-  const eventName = "  Friday, 14th FEB 2025";
+  const nextEventDate = new Date("2025-03-09T00:00:00+03:00");
+  const eventName = "  Sunday, 9th Match 2025";
 
   return (
     <div className="timer-verse">
       <main className="flex min-h-[70vh] flex-col items-center justify-center">
         <h1 className="text-3xl sm:text-4xl countdown-title font-bold mb-8 text-white text-center">
-          Countdown to <span className="text-yellow-500">Ladies</span> and <span className="text-yellow-500">Gents</span> Night 2025.
+          Countdown to <span className="text-yellow-500">Sunday</span> <span className="text-yellow-500">Service</span> 9/3/2025.
         </h1>
         
         <div className="flex flex-col md:flex-row card-all w-full max-w-6xl">

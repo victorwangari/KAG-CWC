@@ -4,13 +4,14 @@ import NavBar from '../navbar/navbar';
 import Footer from '../footer/footer';
 import "../../css/hero.css";
 import covenant from "../../posters/covenanthour.jpg";
-import ladiesgents from "../../posters/ladies_&_gents_night.jpg";
+import chilrencamp from "../../posters/CHILDREN NATIONAL CAMP.jpeg"
+import biblestudy from "../../posters/BIBLE STUDY.jpeg"
 import sundayservice from "../../posters/sundaysevice .jpg";
 
 const events = [
     {
-        date: "9 February 2025",
-        time: "9:00 AM",
+        date: "Every Sunday",
+        time: "1st service 9:00 AM - 11:00 AM , 2nd service 11:00 AM - 1:00 PM",
         image: sundayservice,
         title: "Sunday Service"
     },
@@ -21,10 +22,16 @@ const events = [
         title: "Covenant Hour"
     },
     {
-        date: "14 February 2025",
-        time: "7:00 PM",
-        image: ladiesgents,
-        title: "Ladies & Gents Night"
+        date: "Every Saturday",
+        time: "5:30 PM - 6:30 PM",
+        image: biblestudy,
+        title: "The Jesus' Walk Talk"
+    },
+    {
+        date: "22nd to 25th April 2015",
+        time: "3 days",
+        image: chilrencamp,
+        title: "Children's National Camp"
     }
 ];
 

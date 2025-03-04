@@ -1,13 +1,14 @@
 import React from "react";
 import "../../css/hero.css";
 import covenant from "../../posters/covenanthour.jpg";
-import ladiesgents from "../../posters/ladies_&_gents_night.jpg";
+import biblestudy from "../../posters/BIBLE STUDY.jpeg";
+import childrenscamp from "../../posters/CHILDREN NATIONAL CAMP.jpeg";
 import sundayservice from "../../posters/sundaysevice .jpg";
 
 const events = {
     events: [
         {
-            date: "9 February 2025",
+            date: "Every Sunday",
             image: sundayservice
         },
         {
@@ -15,8 +16,12 @@ const events = {
             image: covenant
         },
         {
-            date: "14 February 2025",
-            image: ladiesgents
+            date: " Every Saturday",
+            image: biblestudy
+        },
+        {
+            date: "22 - 23 April 2025",
+            image: childrenscamp
         }
     ]
 };

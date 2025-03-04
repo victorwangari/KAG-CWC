@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 import CWCLOGO from "../../img/cwc_logo-removebg-preview.png";
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto grid md:grid-cols-4 gap-8">
         {/* Company Info */}
         <div>
-          <img src={CWCLOGO} alt="" />
+          <img src={CWCLOGO} alt="CWC Logo" />
           <p className="text-sm">
             Empowering your spiritual journey with faith-driven guidance and unwavering support.
           </p>
@@ -30,17 +31,18 @@ const Footer = () => {
         <div>
           <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            {["About Us", "Services", "Products", "Contact", "Careers", "Blog"].map((link) => (
-              <li key={link} className="hover:text-white cursor-pointer">{link}</li>
-            ))}
+            <li><Link to="/about" className="hover:text-white1">About Us</Link></li>
+            <li><Link to="/events" className="hover:text-white">Events</Link></li>
+            <li><Link to="/hire-products" className="hover:text-white">Hired Products</Link></li>
+            <li><Link to="#" className="hover:text-white">Give</Link></li>
           </ul>
         </div>
-        
+
         {/* Newsletter */}
         <div>
           <h3 className="text-white text-lg font-semibold mb-4">Stay Updated</h3>
           <p className="text-sm mb-4">
-            Subscribe to our newsletter for the latest updates and exclusive offers.
+            Subscribe to our newsletter for the latest updates and exclusive announcements.
           </p>
           <div className="flex">
             <input 

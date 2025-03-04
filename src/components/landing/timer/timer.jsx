@@ -52,7 +52,7 @@ export default function EventCountdown({ eventDate, eventName }) {
     <div className="bg-green-700 to-red-500 p-6 rounded- shadow-lg text-white text-center">
       <h2 className="text-2xl font-semibold mb-4">{eventName}</h2>
       <div className="flex flex-wrap justify-center items-center gap-4 mb-4">
-        {timerComponents.length ? timerComponents : <span className="text-4xl font-bold">Welcome to <span className="text-yellow-500">LADIES&GENTS</span> night!</span>}
+        {timerComponents.length ? timerComponents : <span className="text-4xl font-bold">Welcome to <span className="text-yellow-500">TODAYS</span> Sunday Service</span>}
       </div>
       <div className="text-lg">Current time in Kenya: {formatKenyanTime(currentTime)}</div>
     </div>
